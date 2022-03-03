@@ -9,5 +9,7 @@
 </head>
 <body>
     @include('commons.header')
+    @include('commons.main')
+
 </body>
 </html>

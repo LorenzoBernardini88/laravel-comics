@@ -1,3 +1,7 @@
+@extends('layout.app')
+
+@section('main-content')
+
 @foreach ($comics as $key => $valore)
 <div class="comicContainer">
     <div class="cover">
@@ -6,3 +10,5 @@
     <span>{{$valore['series']}}</span>
 </div>
 @endforeach
+
+@endsection

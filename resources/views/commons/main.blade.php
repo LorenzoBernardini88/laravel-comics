@@ -1,6 +1,6 @@
 <main>
     <div class="container">
-        @include('../comic')
+        @yield('main-content')
     </div>
 </main>
     

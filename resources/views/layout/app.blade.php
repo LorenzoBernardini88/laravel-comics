@@ -8,6 +8,7 @@
     <title>Laravel-comics</title>
 </head>
 <body>
+    
     @include('commons.header')
     @include('commons.main')
     @include('commons.footer')

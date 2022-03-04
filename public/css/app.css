@@ -63,7 +63,7 @@ main {
 }
 
 .top_footer {
-  padding: 30px 0;
+  padding: 25px 0;
   color: #fff;
   background-color: #0282F9;
 }
@@ -71,6 +71,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0;
 }
 .top_footer .container .content_top {
   width: 15%;

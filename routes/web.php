@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data_comics = config('comics');
     $nav_data = config('nav_data');
-    $foot_top_data = config('topf_data');
-    return view('comic',['comics'=>$data_comics],['nav'=>$nav_data],['topfooter'=>$foot_top_data]);
+    $footer_top_data = config('top_footer_data');
+    return view('comic',['comics'=>$data_comics,'nav'=>$nav_data,'topfooter'=>$footer_top_data]);
 });
+
+
